@@ -14,6 +14,5 @@ spec:
   ~/.config/nvim: nvim
   ~/.tmux.conf: tmux/tmux.conf
   ~/.zshrc: zsh/zshrc
-  ~/Desktop: screenshots
   ~/.config/bat/themes/ayu/ayu-mirage.tmTheme: misc/ayu.tmTheme
   ~/.config/coc/: nvim/coc/

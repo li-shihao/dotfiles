@@ -1,0 +1,19 @@
+{
+"languageserver": {
+	"ccls": {
+		"command": "ccls",
+		"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+		"rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+		"initializationOptions": {
+		"cache": {
+			"directory": "/tmp/ccls-cache",
+			"retainInMemory": 1
+			}
+		}
+	}
+},
+"suggest.timeout": 10,
+"suggest.snippetIndicator": "►",
+"diagnostic.enableSign":0,
+"diagnostic.virtualText":1
+}

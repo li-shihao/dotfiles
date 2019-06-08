@@ -16,6 +16,7 @@ brew install yank
 brew install tmux
 brew install peco
 brew install rebound
+brew install alder
 
 # linuxify
 git clone https://github.com/fabiomaia/linuxify.git

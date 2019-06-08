@@ -19,3 +19,5 @@ spec:
   ~/screenshots: screenshots/
   ~/.config/bat/themes/ayu/ayu-mirage.tmTheme: misc/ayu.tmTheme
   ~/.config/coc/: nvim/coc/
+  ~/.purepower: zsh/purepower
+  ~/test/ccls: misc/ccls

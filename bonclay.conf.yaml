@@ -16,5 +16,6 @@ spec:
   ~/.zshrc: zsh/zshrc
   ~/install.sh: install.sh
   ~/README.md: README.md
+  ~/screenshots: screenshots/
   ~/.config/bat/themes/ayu/ayu-mirage.tmTheme: misc/ayu.tmTheme
   ~/.config/coc/: nvim/coc/

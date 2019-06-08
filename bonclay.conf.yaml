@@ -14,10 +14,5 @@ spec:
   ~/.config/nvim: nvim
   ~/.tmux.conf: tmux/tmux.conf
   ~/.zshrc: zsh/zshrc
-  ~/install.sh: install.sh
-  ~/README.md: README.md
-  ~/screenshots: screenshots/
   ~/.config/bat/themes/ayu/ayu-mirage.tmTheme: misc/ayu.tmTheme
   ~/.config/coc/: nvim/coc/
-  ~/.purepower: zsh/purepower
-  ~/test/ccls: misc/ccls

@@ -11,6 +11,11 @@ brew install aria2
 brew install alder
 brew install --HEAD ccls
 brew install dasht
+brew install z
+brew install yank
+brew install tmux
+brew install peco
+brew install rebound
 
 # linuxify
 git clone https://github.com/fabiomaia/linuxify.git

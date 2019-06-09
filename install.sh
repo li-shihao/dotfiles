@@ -4,10 +4,13 @@
 brew install git
 brew install --HEAD neovim 
 brew install bat
+brew install exa
 brew install fzf
 brew install wget
-brew install rg
+brew install ripgrep
+brew install fd
 brew install aria2
+brew install dtrx
 brew install alder
 brew install --HEAD ccls
 brew install dasht
@@ -56,3 +59,10 @@ dasht-docsets-extract scikit-learn.tgz
 curl -sL install-node.now.sh/lts | sh
 curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 vim -c call dein#install() -c UpdateRemotePugins -c quitall 
+
+# misc
+aria2c https://github.com/sharkdp/vivid/releases/download/v0.4.0/vivid-v0.4.0-x86_64-apple-darwin.tar.gz
+tar xvf vivid-v0.4.0-x86_64-apple-darwin.tar.gz
+sudo mv vivid-v0.4.0-x86_64-apple-darwin/vivd /usr/bin/vivid
+mv vivid-v0.4.0-x86_64-apple-darwin/share/vivd ~/.config/
+

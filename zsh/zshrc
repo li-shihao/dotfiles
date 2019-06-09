@@ -52,12 +52,12 @@ bindkey '^[3;5~' delete-char
 
 alias d='dirs -v | head -10'
 alias cat='bat --theme ayu'
+alias ls='exa -l --git'
 alias rg='rg -uu'
 alias fzft="fzf-tmux -d 50% --multi --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
 alias fzf="fzf --multi --ansi" 
 alias vim="nvim"
 alias tree='alder'
-alias duc='duc ui /'
 alias lg="git log --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%ad)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=local"
 alias 1='cd -'
 alias 2='cd -2'
@@ -68,7 +68,6 @@ alias 6='cd -6'
 alias 7='cd -7'
 alias 8='cd -8'
 alias 9='cd -9'
-alias ls='ls -al --color=auto'
 autoload -Uz zcalc
 alias zc='zc'
 
@@ -111,3 +110,4 @@ export EDITOR="nvim"
 export FZF_DEFAULT_COMMAND='rg -uu --files --no-ignore --hidden 2>/dev/null'
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$HOME/test:$PATH"
+export LS_COLORS="$(vivid generate ayu)"

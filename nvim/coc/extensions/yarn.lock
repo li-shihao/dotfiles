@@ -644,10 +644,10 @@ coc-python@^1.1.14:
     winreg "^1.2.4"
     xml2js "^0.4.19"
 
-coc-snippets@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/coc-snippets/-/coc-snippets-2.0.15.tgz#8872e8fc125891cbcc4dea304063c0f7d5a44764"
-  integrity sha512-YjW+nSx8M95UIL90NQFAXjmogR8vDjJxc2+jloiKMKn+ckLxdwdnagCxVVH6Kbe8KQM7iLmWbVYJwjXdt4iGSg==
+coc-snippets@^2.0.16:
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/coc-snippets/-/coc-snippets-2.0.16.tgz#e69a04294bb6fdf4a02e180cea88b4afb9a5c426"
+  integrity sha512-zcVw7fsTDI6l6LkRvRy/xTzhhpXGBtmAUNXm26NDtX2q9uYLF59QmSa9H28P1FtakPz34VaWLineEfbrFZymCA==
   dependencies:
     jsonc-parser "^2.0.3"
     pify "^4.0.1"

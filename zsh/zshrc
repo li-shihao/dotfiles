@@ -57,6 +57,7 @@ alias fzft="fzf-tmux -d 50% --multi --ansi --preview-window 'right:60%' --previe
 alias fzf="fzf --multi --ansi" 
 alias vim="nvim"
 alias tree='alder'
+alias duc='duc ui /'
 alias lg="git log --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%ad)%C(yellow)%d%Creset %s %C(bold blue)<%an>%Creset' --abbrev-commit --date=local"
 alias 1='cd -'
 alias 2='cd -2'
